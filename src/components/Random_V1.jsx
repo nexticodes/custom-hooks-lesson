@@ -21,7 +21,7 @@ const Random_V1 = () => {
   }
   
   return (
-    <div>
+    <div className="container">
       <h1>Random Gif</h1>
       <img width="450" src={gif} alt=''/>
       <button onClick={handleClick}>CLICK ME FOR NEW</button>
